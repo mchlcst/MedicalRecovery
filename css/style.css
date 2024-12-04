@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-1 {
+    background: #FAFAFA;
+}
+
+:root {
+    --links_color: #FF685B;
+    --base_color_text: #252B42
+}
+p, h1, h2, h3, span {
+    margin: 0;
+}
+
+.link {
+    color: var(--links_color);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar .container {
+    padding: 15px 0px;
+}
+
+.nav-links-end button {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.nav-links-end button:hover {
+    border: none;
+    padding: 15px 25px;
+    color: white;
+}
+
+
+.nav-links-end .login {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: none;
+}
+.nav-links-end .login:hover {
+    border: none;
+    padding: 15px 25px;
+    color: #ff8989;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    color: #6c757d;
+    font-weight: bold;
+}
+.project-name {
+    color: var(--base_color_text);
+    font-weight: bold;
+}
+.link:hover {
+    text-decoration: none;
+    color: var(--links_color);
+}
+
+.web-welcome img {
+    max-width: 700px;
+    max-height: 730px;
+    background: #FAFAFA;
+}
+
+
+.join_us {
+    margin-top: -93px;
+    margin-bottom: 35px;
+    color: var(--links_color);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.join_us a {
+    color: var(--links_color);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.join_us a:hover {
+    text-decoration: none;
+    color: var(--links_color);
+}
+
+.wlc {
+    color: var(--base_color_text);
+    font-weight: bold;
+    font-size: 58px;
+}
+
+.desc {
+    font-size: 20px;
+    color: #737373;
+    margin-top: 35px ;
+    margin-bottom: 35px ;
+}
+
+.button_seller {
+    border: 1px solid var(--links_color);
+    padding: 15px 30px;
+    color: var(--links_color);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.bg-n {
+    background: var(--links_color);
+    color: white;
+}
+
+
+.button_seller:hover {
+    color: black;
+    text-decoration: none;
+}
+.my {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; /* Убираем фиксированную ширину */
+    width: 328px; /* Для больших экранов */
+    height: auto; /* Высота адаптируется под контент */
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 20px; /* Уменьшаем паддинг для мобильных */
+    position: relative; /* Убираем absolute, чтобы избежать перекрытий */
+    margin: -120px auto; /* Центрируем на экранах меньшего размера */
+    border-radius: 8px; /* Добавляем небольшой радиус для улучшения дизайна */
+    background: white;
+}
+
+.my div {
+    display: flex;
+    border: 1px solid #E74040;
+    width: 100%; /* Адаптивная ширина */
+    max-width: 100px; /* Лимитируем ширину */
+    background: #E74040;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    margin: 15px 0; /* Уменьшаем отступы для компактности */
+}
+
+.my img {
+    width: 72px; /* Оставляем размер изображения, но можем уменьшить для мобильных */
+}
+
+@media (max-width: 768px) {
+    .my {
+        width: 100%; /* На маленьких экранах используем всю ширину контейнера */
+        padding: 15px; /* Уменьшаем отступы */
+        margin: 15px 0; /* Меньший внешний отступ */
+    }
+
+    .my div {
+        width: 80%; /* Уменьшаем ширину для маленьких экранов */
+        max-width: 80px; /* Ограничиваем размер */
+    }
+
+    .my img {
+        width: 60px; /* Уменьшаем размер изображения */
+    }
+}
+
+
+.stats {
+    margin-top: 250px;
+    background: white;
+    margin-bottom: 80px;
+}
+
+.row .col b {
+    font-size: 58px;
+    color: var(--links_color);
+}
+.row .col span {
+    color: black;
+    font-weight: bold;
+}
+
+.meet_exp {
+    height: 761px;
+}
+
+.meet_exp .line {
+    height: 7px;
+    width: 94px;
+    background: #E74040;
+    margin-bottom: 35px;
+}
+.exp h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.exp p {
+    color: #737373;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.departament {
+    background: #E5F9F7;
+
+}
+
+
+.departament {
+    padding: 160px 0px;
+}
+
+/* Общий стиль карточки */
+.second-card {
+    width: 348px;
+    border: none;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+}
+
+
+/* Секция с изображением */
+.card-image {
+    position: relative;
+    max-width: 348px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.card__img {
+    width: 348px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Кнопки на изображении */
+.card-buttons {
+    position: absolute;
+    top: 230px;
+    left: 20%;
+    display: flex;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale {
+    position: absolute;
+    top: 20px;
+    left: 3%;
+    display: flex;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #E74040;
+    padding: 2px 10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+
+.card-content {
+    padding: 26px;
+}
+
+.content_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    background: #26335D;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.rating * {
+    margin-left: 4px;
+}
+
+.cards__departament {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sales {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sales p {
+    margin: 0 10px;
+}
+
+.prices {
+    display: flex;
+    font-weight: bold;
+    margin: 20px 0px 35px;
+}
+.prices .last_price {
+    margin-right: 5px;
+    color: #BDBDBD
+}
+
+.prices .new_price {
+    color: #5AACA8
+}
+.data .learn_more {
+    padding: 10px 20px;
+    border-radius: 37px;
+    border: 1px solid var(--links_color);
+}
+
+.lcle {
+    max-width: 496px;
+    text-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.leading {
+    padding: 160px 0px;
+}
+
+.stars img {
+    width: 22px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rating {
+    max-width: 328px;
+}
+
+.rating-bat .info {
+    max-width: 160px;
+    margin-bottom: 30px;
+}
+
+.designer {
+    font-weight: bold;
+    font-size: 12px;
+}
+.info .stars {
+    margin-bottom: 16px;
+}
+.employee .image {
+    margin-right: 15px;
+}
+
+.team {
+    padding: 160px 0px;
+}
+
+.team_users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-card {
+    max-width: 240px;
+    margin-bottom: 10px;
+}
+.team-card .image img {
+    max-width: 240px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.team-card .team-card__body {
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.07);
+}
+
+.team-card__body {
+    padding: 30px 52px;
+    border-radius: 0px 0px 20px 20px;
+}
+.team-card__body .name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-card__body .proffesion {
+    color: #737373;
+    margin-bottom: 10px;
+}
+
+.team-card__body .links {
+    display: flex;
+}
+.team-card__body .links a {
+    margin-left: 20px;
+}
+
+
+.join_us_sec {
+    padding: 160px 0px;
+}
+
+.no-bootstrap-animation .form-control:focus,
+.no-bootstrap-animation .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #ced4da !important
+}
+
+.email-input {
+    height: 58px !important;
+    border: 1px solid #ced4da;
+    border-right: none;
+    border-radius: 4px 0 0 0px;
+    font-size: 16px;
+    padding: 10px 15px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.email-input:focus {
+    border-color: #6c757d !important;
+}
+
+.subscribe-button {
+    background: var(--links_color);
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+footer .row .col .footer__item b {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer .row .col .footer__item a {
+    color: #737373;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer .row .col .last div {
+    margin-bottom: 11px;
+    display: flex;
+}
+footer .row .col .last div img {
+    margin-right: 10px;
+}
+
+.footer-exc {
+
+    background: #FAFAFA;
+    color:#737373;
+    padding: 25px;
+}
+
+.footer__links__end a {
+    margin-right: 20px;
+}
+@media (max-width: 767px) {
+    .web-welcome img {
+        max-width: 100%;
+        max-height: 400px;
+    }
+
+    .team_users {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .team-card {
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+    .team-card .image img {
+        max-width: 300px;
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+
+/* Настройка для планшетов */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .web-welcome img {
+        max-width: 0%;
+        max-height: 600px;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .web-welcome img {
+        max-width: 700px;
+        max-height: auto;
+    }
+
+}
+.of_cards {
+    display: none;
+}
+
+kbd {
+    display: flex;
+    flex-wrap: wrap;
+}
